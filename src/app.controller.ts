@@ -21,7 +21,7 @@ export class AppController {
 
 
 
-export interface Respuesta {
-  time:string
-  timezone:number
-}
+// export interface Respuesta {
+//   time:string
+//   timezone:number
+// }
