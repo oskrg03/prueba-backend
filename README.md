@@ -4,10 +4,39 @@
 
 ## Description
 
-## Installation
+El servicio está desarrollado con la tecnología Nest JS, la cual utiliza Typescript para desarrollar. 
+
+El proyecto está configurado para ser subido a Heroku. 
+
+
+Adicional, el proyecto está en un servidor Heroku como una api rest para su consulta.
+
+Url: https://back-service.herokuapp.com/getHora
+
+Parámetros: time,timezone.
+
+Ejemplo:
+
+https://back-service.herokuapp.com/getHora?time="+time+"&timezone="+timezone
+
+
+La respuesta de las peticiones tiene el formato 
+```
+{
+    "response": {
+        "time": "21:45:31",
+        "timezone": "utc"
+    }
+}
+```
+
+Así mismo, se creo una webapp en Angular9 
+
+## Installation Nestjs
 
 ```bash
-$ npm install
+$ npm i -g @nestjs/cli
+$ nest new project-name
 ```
 
 ## Running the app
@@ -19,33 +48,9 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## Tecnologias
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+Nest v.7
+Typescript v.3.7
