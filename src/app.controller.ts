@@ -1,6 +1,5 @@
-import { Controller, Get, Res, HttpStatus, Query, Post, Body } from '@nestjs/common';
+import { Controller, Get, Res, HttpStatus, Query, Post } from '@nestjs/common';
 import { AppService } from './app.service';
-import { time } from 'console';
 // import { Respuesta } from './interfaces/respuesta.interface';z
 
 @Controller()
