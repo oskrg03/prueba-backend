@@ -53,4 +53,5 @@ $ npm run start:dev
 ## Tecnologias
 
 Nest v.7
+
 Typescript v.3.7
