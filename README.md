@@ -20,7 +20,7 @@ Ejemplo:
 https://back-service.herokuapp.com/getHora?time="+time+"&timezone="+timezone
 
 
-La respuesta de las peticiones tiene el formato 
+La respuesta de las peticiones tiene el formato.
 ```
 {
     "response": {
@@ -30,7 +30,7 @@ La respuesta de las peticiones tiene el formato
 }
 ```
 
-Así mismo, se creo una webapp en Angular9 
+Así mismo, se creo una webapp en Angular9, ubicada en https://github.com/oskrg03/timezone-converter.git
 
 ## Installation Nestjs
 
